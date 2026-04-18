@@ -1,17 +1,45 @@
-# first_flutter_app
+# Flutter Лабораторная работа №2: Знакомство с Flutter
 
-A new Flutter project.
+## Общая информация
 
-## Getting Started
+**Цель работы:** изучение основ кроссплатформенной разработки с использованием Flutter. Создание и запуск первого Flutter-проекта в браузере Chrome.
+## Информация об авторе
+- **ФИО:** Рыхлюк Надежда
+- **Группа:** ISP-233
 
-This project is a starting point for a Flutter application.
+## Используемые инструменты
 
-A few resources to get you started if this is your first Flutter project:
+* **Flutter SDK:** версия 3.41.5
+* **Dart SDK:** версия 3.11.3
+* **IDE:** Visual Studio Code
+* **Браузер:** Microsoft Edge
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Скриншот работающего приложения
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Скриншот приложения](img/step9_Ryckluk.png)
+
+## Инструкция по запуску
+
+Для запуска проекта выполните следующие шаги:
+
+```bash
+# Клонирование репозитория
+git clone <URL_репозитория>
+
+# Переход в директорию проекта
+cd Flutter_Lab2
+
+# Установка зависимостей
+flutter pub get
+
+# Запуск приложения
+flutter run -d edge
+```
+
+## Что изучили
+В ходе выполнения лабораторной работы были изучены следующие темы:
+* Основы структуры Flutter-проекта и назначение основных папок (lib/, pubspec.yaml).
+* Базовые виджеты: MaterialApp, Scaffold, Container, Center, Text.
+* Принципы работы с состоянием и отличие StatelessWidget от StatefulWidget.
+* Инструменты разработки: Hot Reload, Hot Restart, Flutter DevTools и Flutter Inspector.
+* Стилизация интерфейса: использование цветов, градиентов (LinearGradient) и оформление текста (TextStyle).
